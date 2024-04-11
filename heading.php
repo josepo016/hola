@@ -16,7 +16,7 @@
 			<hr>
 			<p>Nombre: <?php echo $row['firstname']." ".$row['lastname']; ?><span class="margin-p"> </span>Género: <?php echo $row['gender']; ?></p>
 			<hr>
-			<p>Dirección: <?php echo $row['address']; ?></p>
+			<p>Número de Contacto: <?php echo $row['mobile']; ?></p>
 			<hr>
 		</div>
       <div class="col-md-5">

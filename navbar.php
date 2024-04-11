@@ -1,5 +1,5 @@
         
-        <header class="navbar navbar-bright navbar-fixed-top" role="banner">
+        <header class="navbar navbar-bright navbar-fixed-top" role="banner" >
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,3 +31,13 @@
     </nav>
   </div>
 </header>
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,15 @@
 .nombre{
     color: black;
+    font-size: 16px;
+    border-radius: 15px;
+    float: left;
+    text-align: center;
+}
+.nombre h2{
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+.g{
+    text-align: center;
 }

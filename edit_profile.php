@@ -13,7 +13,8 @@
 		<hr>
 		<button class="btn btn-success">Cambiar Foto de Perfil</button>
       </div>
-		<div class="col-md-10">
+		<div class="col-md-10" class="contenedor">
+			container
 			<?php
 	$query = $conn->query("select * from members where member_id = '$session_id'");
 	$row = $query->fetch();
@@ -21,31 +22,33 @@
 	?>
 	<hr>
 					<form method="post" action="save_edit.php" class="nombre">
-	<input type="hidden" name="member_id" value="<?php echo $id; ?>">
-	Usuario:<input type="text" name="username" class="nombre" value="<?php echo $row['username']; ?>">
+	<input type="hidden" name="member_id" value="<?php echo $id; ?>"><h2>
+	Usuario:</h2><input type="text" name="username" class="nombre" value="<?php echo $row['username']; ?>">
 	<hr>
-	Nombre:<input type="text" name="firstname" class="nombre" value="<?php echo $row['firstname']; ?>">
+	<h2>Nombre:</h2><input type="text" name="firstname" class="nombre" value="<?php echo $row['firstname']; ?>">
 	<hr>
-	Apellido:<input type="text" name="lastname" class="nombre" value="<?php echo $row['lastname']; ?>">
+	<h2>Apellido:</h2><input type="text" name="lastname" class="nombre" value="<?php echo $row['lastname']; ?>">
 	<hr>
-	Género:
-	<select name="gender">
+	<h2>Género:</h2>
+	<select name="gender" >
+		<div class="g" class="nombre">
 		<option><?php echo $row['gender']; ?></option>
 		<option>Hombre</option>
 		<option>Mujer</option>
+		</div>
 	</select>
 	<hr>
-	Fecha de Nacimiento:<input name="birthdate"  type="text" class="nombre" value="<?php echo $row['birthdate']; ?>">
+	<h2>Fecha de Nacimiento:</h2><input name="birthdate"  type="text" class="nombre" value="<?php echo $row['birthdate']; ?>">
 	<hr>
-	Dirección:<input name="address" type="text" class="nombre" value="<?php echo $row['address']; ?>">
+	<h2> Dirección: <h2><input name="address" type="text" class="nombre" value="<?php echo $row['address']; ?>">
 	<hr>
-	Estado:<input name="status" type="text" class="nombre" value="<?php echo $row['status']; ?>">
+	<h2>Estado:<h2><input name="status" type="text" class="nombre" value="<?php echo $row['status']; ?>">
 	<hr>
-	Móvil:<input name="mobile" type="text" class="nombre" value="<?php echo $row['mobile']; ?>">
+	<h2>Móvil:<h2><input name="mobile" type="text" class="nombre" value="<?php echo $row['mobile']; ?>">
 	<hr>
-	Trabajo:<input name="work" type="text" class="nombre" value="<?php echo $row['work']; ?>">
+	<h2>Trabajo:<h2><input name="work" type="text" class="nombre" value="<?php echo $row['work']; ?>">
 	<hr>
-	Religión:<input name="religion" type="text" class="nombre" value="<?php echo $row['religion']; ?>">
+	<h2>Religión:<h2><input name="religion" type="text" class="nombre" value="<?php echo $row['religion']; ?>">
 	<hr>
 	<br>
 			<center>

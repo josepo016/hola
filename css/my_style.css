@@ -15,17 +15,21 @@ body{
     padding: 16px;
 }
 .col-md-10 > p {
-    color: maroon;
+    color: white;
+    font-size: 20px;
 }
+
 .alert{
 	border:1px solid;
 	margin-bottom:0px !important;
+  color: black;
+  font-size: 15px;
 }
 .photo {
     margin-top: 10px;
 }
 .top-spacer {
-    border-radius: 20px 20px 0 0;
+    border-radius: 30px 23px 0 0;
 }
 .margin-p{
 	margin-left:50px;
@@ -44,7 +48,8 @@ body{
     width: 148px;
 }
 .col-md-5 > p {
-    color: black !important;
+    color: white !important;
+    font-size: 20px;
 }
 .top-spacer {
     margin-top: 26px;
@@ -68,6 +73,7 @@ textarea {
     height: 166px;
     margin-top: 14px;
     width: 456px !important;
+    border-radius: 15px;
 }
 #span5{
 	width:300px;
@@ -79,7 +85,7 @@ body {
 	font-family: 'TR Century Gothic' !important;
   padding-top:50px;
   color:#646464;
-  background: linear-gradient(0deg, rgba(236, 234, 231) -15%, rgb(236, 234, 231) 100%);
+  background-image: url(/redsocial/images/cielo.jpeg);  
 }
 
 h1,h2,h3,.highlight,.navbar a,#masthead h4 {
@@ -142,7 +148,7 @@ footer {
 }
 
 .top-spacer {
-  background-color:#ffffff;
+  background-color:#bce8f1;
   height:40px;
 }
 

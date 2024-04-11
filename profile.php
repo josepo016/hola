@@ -2,8 +2,9 @@
 <?php include('session.php'); ?>    
     <body>
 	<?php include('navbar.php'); ?>
-	<link rel="stylesheet" href="/redsocial/css/nombres.css">
+	<link rel="stylesheet" href="/redsocial/css/perfil.css">
 	
+	<div class="perfil">
 	<div class="nombre">
 			<div id="masthead">  
 				<div class="container">
@@ -12,12 +13,12 @@
 				<div class="container">
 					<div class="row">
 					<div class="col-md-12">
-						<div class="top-spacer"> </div>
 					</div>
 					</div> 
 				</div><!-- /cont -->
 			</div>
 		</div>
+	</div>	
                                                 
                                                                                 
 <?php include('footer.php'); ?>
