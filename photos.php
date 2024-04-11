@@ -17,6 +17,7 @@
   </div><!-- /cont -->
   
 </div>
+<link rel="stylesheet" href="css/photo.css">
 
 
 <div class="container">
@@ -29,11 +30,13 @@
           
 			<h2 id="po">Mis Fotos</h2>
 				<div class="pull-right">
-							<form id="photos"   method="POST" enctype="multipart/form-data">
+					
+							<form id="photos"   method="POST" enctype="multipart/form-data" >
+					
 
 									<label class="control-label" for="input01">Imagen:</label>
 									
-										<input type="file" name="image" class="font" required>
+										<input type="file"  name="image" class="font" required>
 									
 								
 						
@@ -41,6 +44,7 @@
 										<br><button type="submit" name="submit" class="btn btn-success"><i class="icon-upload"></i> Subir Foto</button>
 								
 							</form>
+							
 							<?php 
 								if (isset($_POST['submit'])) {
  
@@ -69,7 +73,7 @@
 	$id = $row['photos_id'];
 	?>
             <div class="col-md-2 col-sm-3 text-center">
-				<img class="photo" src="<?php echo $row['location']; ?>" >
+				<img  class="photos_ancho" class="photo" src="<?php echo $row['location']; ?>" >
 				<hr>
 	<a class="btn btn-danger" href="delete_photos.php<?php echo '?id='.$id; ?>"><i class="icon-remove"></i> Eliminar</a>
             </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

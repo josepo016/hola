@@ -27,9 +27,11 @@ body{
 }
 .photo {
     margin-top: 10px;
+    
 }
 .top-spacer {
     border-radius: 30px 23px 0 0;
+    margin-top: 1vh;
 }
 .margin-p{
 	margin-left:50px;
@@ -52,13 +54,14 @@ body{
     font-size: 20px;
 }
 .top-spacer {
-    margin-top: 26px;
+    margin-top: 1vh;
 }
 #photos {
     border: 1px solid;
     border-radius: 10px;
     margin-top: -94px;
     padding: 12px;
+    
 }
 #masthead{
     background: url('../images/images.jpg') no-repeat !important;
@@ -85,7 +88,7 @@ body {
 	font-family: 'TR Century Gothic' !important;
   padding-top:50px;
   color:#646464;
-  background-image: url(/redsocial/images/cielo.jpeg);  
+  background-image: url(../images/cielo.jpeg);  
 }
 
 h1,h2,h3,.highlight,.navbar a,#masthead h4 {
@@ -149,7 +152,7 @@ footer {
 
 .top-spacer {
   background-color:#bce8f1;
-  height:40px;
+  height:4px;
 }
 
 a,a:hover {

@@ -2,7 +2,7 @@
 <?php include('session.php'); ?>    
     <body>
 	<?php include('navbar.php'); ?>
-	<link rel="stylesheet" href="/redsocial/css/nombres.css">
+	<link rel="stylesheet" href="css/nombres.css">
 
 			<div id="masthead">  
 				<div class="container">
