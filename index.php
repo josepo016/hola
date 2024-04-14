@@ -35,7 +35,7 @@
 
         <a onclick="openNav()" class="bot">
             <li class="header__li">
-                <a href="inicio.php">
+                <a href="inicio.html">
                     <button class="header__btn header__btn--join ">Iniciar sesión</button>
                 </a>
             </li>
@@ -47,7 +47,7 @@
         <section class="swipea">
             
             <h2 class="swipea__h2"><div class="div_letra">¡match gtu!</div></h2>
-            <a href="inicio.php">
+            <a href="inicio.html">
                 <button class="swipea__btn">
                     <span class="swipea__span">  
 								</p>Crea tu cuenta</span>
