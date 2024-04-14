@@ -1,7 +1,6 @@
 .photos_ancho{
-    margin-top: 10px;
-    width: 20em; /* Ancho del 10% del viewport */
-    height: 15em; /* Altura del 10% del viewport */
-    object-fit: cover
+    width: 100%; /* O el ancho deseado */
+    height: 100%; /* O la altura deseada */
+    object-fit: cover;
 
 }
