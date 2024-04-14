@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MACTH GTU</title>
     <link rel="stylesheet" href="css/Ini.css">
+    <link rel="stylesheet" href="css/letra.css">
 </head>
 
 <body>
@@ -44,7 +45,8 @@
 
     <main class="main">
         <section class="swipea">
-            <h2 class="swipea__h2">¡match gtu!</h2>
+            
+            <h2 class="swipea__h2"><div class="div_letra">¡match gtu!</div></h2>
             <a href="inicio.php">
                 <button class="swipea__btn">
                     <span class="swipea__span">  
