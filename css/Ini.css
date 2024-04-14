@@ -536,7 +536,7 @@ body {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr unset 1fr unset 1fr unset 1fr unset 1fr unset 1fr;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: unset;
   }
 }
